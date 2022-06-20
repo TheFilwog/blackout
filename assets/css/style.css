@@ -1,0 +1,19 @@
+.box {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 7rem);
+    grid-template-rows: repeat(5, 7rem);
+    grid-auto-flow: column;
+  }
+
+  .game-container{
+    display: flex;
+    justify-content: center;
+  }
